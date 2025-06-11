@@ -1,9 +1,14 @@
 # Configure Git Username and Email
 
-1. Set username
-Run this command in your terminal:
+## 1. Set Username
+
+Run the following commands in your terminal:
+
+```bash
 git config --global user.name "Your Name"
 git config --global user.name "Jui Saha"
+```
+
 
 2. Set email
 Run this command:
