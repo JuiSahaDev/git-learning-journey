@@ -58,7 +58,7 @@ git branch -d feature-branch
 ```
 ### Force delete (if not merged):
 ```bash
-git switch D branch-name
+git switch -D branch-name
 #Example
 git branch -D feature-branch
 ```
