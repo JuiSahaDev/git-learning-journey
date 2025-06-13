@@ -1,11 +1,12 @@
 # Conflict Resolution
 
-## 
-What is a Merge Conflict?
+## What is a Merge Conflict?
 A **merge conflict** occurs when Git is unable to automatically 
 reconcile differences between two branches. This typically happens 
 when two branches have changes in the same part of a file, 
 or when a file is deleted in one branch but modified in another.
+
+---
 
 ## Common Causes of Merge Conflicts
 
@@ -27,17 +28,18 @@ Make small, frequent commits with focused changes.
 Avoid large-scale file renaming or restructuring without coordination.
 Resolve conflicts immediately rather than postponing.
 
+---
 
-For example,
+**For example**,
 You are working on a feature-branch. You change some files. So, you don't commit your work into the main branch directly — that’s not safe!
 
 Here’s what you do instead:
 
 Before starting your task, you run:
+This brings the latest changes from main into your local machine. So your feature branch stays up to date.
 
 ```bash
 git pull origin main
-This brings the latest changes from main into your local machine. So your feature branch stays up to date.
 ```
 Then, you make changes to your files while staying in your feature-branch.
 
