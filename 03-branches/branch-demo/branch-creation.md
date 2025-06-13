@@ -6,13 +6,13 @@ This will list all local branches. The currently checked-out branch will be high
 ```bash
 git branch
 ```
----
+
 ## 2. Create a New Branch
 This creates a new branch named feature-branch from the current HEAD.
 ```bash
 git branch feature-branch
 ```
----
+
 ## 3. Switch to the New Branch
 This switches your working directory to the feature-branch branch.
 ```bash
@@ -22,7 +22,7 @@ git checkout feature-branch
 ```bash
 git switch feature-branch
 ```
----
+
 ## 4. Create and Switch in One Command
 This creates a new branch feature-2 and checks it out in one step.
 ```bash
@@ -32,13 +32,12 @@ git checkout -b feature-2
 ```bash
 git switch -c feature-2
 ```
----
+
 ## 5. View All Branches (Including Remote)
 This shows local and remote-tracking branches.
 ```bash
 git branch -a
 ```
----
 
 ## 6. Delete a Branch
 Deletes the feature-branch branch safely (only if it’s fully merged).
