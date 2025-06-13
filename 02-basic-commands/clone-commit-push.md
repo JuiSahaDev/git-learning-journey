@@ -49,6 +49,18 @@ git commit -m "..."  # Commit with a message
 git push origin main # Push to remote
 ```
 
+## 7. git pull
+Fetches and integrates changes from the remote.
+```bash
+git pull origin main
+```
+## 8. git log
+Shows commit history
+```bash
+git log
+```
+
+
 
 
 
