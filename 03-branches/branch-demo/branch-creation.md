@@ -38,7 +38,7 @@ git checkout -b feature-branch
 ```
 ### Shortcut (Git 2.23+):
 ```bash
-git switch -b branch-name
+git switch -c branch-name
 #Example
 git switch -c feature-branch
 ```
