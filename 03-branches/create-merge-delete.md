@@ -16,6 +16,7 @@ echo "This is a new feature" > feature.txt
 ```bash
 git add .
 git commit -m "Add changes in feature branch"
+git push origin feature-branch #push if the new branch added in the github
 ```
 
 ## Step 4: Switch back to main branch
