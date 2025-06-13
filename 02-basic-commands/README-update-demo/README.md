@@ -164,7 +164,6 @@ git remote remove origin
 ```
 
 ## Undo & Fix Mistakes
-```markdown
 `git revert`
 **Revert a specific commit**
 ```bash
