@@ -2,7 +2,24 @@
 There are few steps
 
 ## Step 1: Create a new branch
+Run this command to create a new branch:
 ```bash
+git branch branch-name
+# Example:
+git branch feature-branch
+```
+
+Use this command to switch branches:
+```bash
+git checkout branch-name
+# Example:
+git checkout feature-branch
+```
+
+Alternatively, create and switch in one step:
+```bash
+git checkout -b branch-name
+# Example:
 git checkout -b feature-branch
 ```
 
