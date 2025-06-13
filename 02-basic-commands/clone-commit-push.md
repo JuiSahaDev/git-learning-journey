@@ -21,8 +21,8 @@ git add filename.ext
 # Example:
 git add 02-basic-commands/clone-commit-push.md
 ```
-```bash
 To stage all changed files:
+```bash
 git add .
 ```
 
