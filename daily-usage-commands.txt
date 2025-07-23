@@ -1,7 +1,49 @@
-- git checkout jui
-- git pull origin master
-- git status
-- git add .
-- git commit -m "Commited messages"
-- git reset --hard origin/master
-- git push origin jui --force
+# Switch to the 'jui' branch
+git checkout jui
+
+# Pull the latest changes from 'master' branch on remote and merge into current branch
+git pull origin master
+
+# Show the status of working directory and staging area
+git status
+
+# Stage all changes for commit
+git add .
+
+# Commit staged changes with a message
+git commit -m "Commited messages"
+
+# Reset current branch to match remote 'master' branch, discarding local changes
+git reset --hard origin/master
+
+# Force push current branch to remote 'jui' branch (overwrites remote history)
+git push origin jui --force
+
+# --- Other daily Git commands ---
+
+# Fetch latest changes from all remotes without merging
+git fetch
+
+# View commit history
+git log
+
+# Show changes between working directory and last commit
+git diff
+
+# Create a new branch named 'feature'
+git checkout -b feature
+
+# Merge 'feature' branch into current branch
+git merge feature
+
+# Delete a local branch named 'feature'
+git branch -d feature
+
+# Stash current changes (save them temporarily)
+git stash
+
+# Apply the most recent stash
+git stash pop
+
+# Show all branches (local and remote)
+git branch -a
