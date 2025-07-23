@@ -1,0 +1,7 @@
+- git checkout jui
+- git pull origin master
+- git status
+- git add .
+- git commit -m "Commited messages"
+- git reset --hard origin/master
+- git push origin jui --force
